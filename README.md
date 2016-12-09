@@ -1,6 +1,12 @@
 ﻿# Create sample NativeScript Application
 
 ## Screenshots
-![Screenshot 1](https://github.com/rkhunter/FESTIVAL_OPEN_1/raw/master/Screenshots/login-screen-1.png =250x)
-![Screenshot 2](https://github.com/rkhunter/FESTIVAL_OPEN_1/raw/master/Screenshots/login-screen-2.png =250x)
-![Screenshot 3](https://github.com/rkhunter/FESTIVAL_OPEN_1/raw/master/Screenshots/second-screen.png =250x)
+<a href="https://github.com/rkhunter/FESTIVAL_OPEN_1/raw/master/Screenshots/login-screen-1.png">
+	<img src="https://github.com/rkhunter/FESTIVAL_OPEN_1/raw/master/Screenshots/login-screen-1.png" alt="Screenshot 1" width="360px" height="640px" />
+</a>
+<a href="https://github.com/rkhunter/FESTIVAL_OPEN_1/raw/master/Screenshots/login-screen-2.png">
+	<img src="https://github.com/rkhunter/FESTIVAL_OPEN_1/raw/master/Screenshots/login-screen-2.png" alt="Screenshot 2" width="360px" height="640px" />
+</a>
+<a href="https://github.com/rkhunter/FESTIVAL_OPEN_1/raw/master/Screenshots/second-screen.png">
+	<img src="https://github.com/rkhunter/FESTIVAL_OPEN_1/raw/master/Screenshots/second-screen.png" alt="Screenshot 3" width="360px" height="640px" />
+</a>
