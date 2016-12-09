@@ -15,7 +15,7 @@ function pageLoaded(args) {
     };
     var loginButton = page.getViewById('loginButton');
     // REMOVE: When finished Developing
-    loginButton.isEnabled = true;
+    // loginButton.isEnabled = true;
     page.bindingContext.on(observable_1.Observable.propertyChangeEvent, function (propertyChangeData) {
         /// Uncomment function below for testing
         // console.log(propertyChangeData.propertyName + " has been changed and the new value is: " + propertyChangeData.value);

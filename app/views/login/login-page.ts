@@ -24,7 +24,7 @@ export function pageLoaded(args) {
     let loginButton = <Button>page.getViewById('loginButton');
 
     // REMOVE: When finished Developing
-    loginButton.isEnabled = true;
+    // loginButton.isEnabled = true;
 
     page.bindingContext.on(Observable.propertyChangeEvent, function (propertyChangeData) {
         /// Uncomment function below for testing
