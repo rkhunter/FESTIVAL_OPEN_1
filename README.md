@@ -1,5 +1,6 @@
 ﻿# Create sample NativeScript Application
 
-![Screenshot 1]()
-![Screenshot 2]()
-![Screenshot 3]()
+## Screenshots
+![Screenshot 1](https://github.com/rkhunter/FESTIVAL_OPEN_1/raw/master/Screenshots/login-screen-1.png)
+![Screenshot 2](https://github.com/rkhunter/FESTIVAL_OPEN_1/raw/master/Screenshots/login-screen-2.png)
+![Screenshot 3](https://github.com/rkhunter/FESTIVAL_OPEN_1/raw/master/Screenshots/second-screen.png)
