@@ -1,6 +1,7 @@
 ﻿import { Observable } from 'data/observable';
 
 import { Page } from 'ui/page';
+import frameModule = require("ui/frame");
 import { Button } from 'ui/button';
 
 import { Email } from '../../models/email';
@@ -21,6 +22,9 @@ export function pageLoaded(args) {
     };
 
     let loginButton = <Button>page.getViewById('loginButton');
+
+    // REMOVE: When finished Developing
+    loginButton.isEnabled = true;
 
     page.bindingContext.on(Observable.propertyChangeEvent, function (propertyChangeData) {
         /// Uncomment function below for testing
@@ -53,3 +57,11 @@ export function pageLoaded(args) {
     });
 }
 
+export function logIn() {
+    frameModule.topmost().navigate(
+        {
+            moduleName: 'views/main/main-page',
+            clearHistory: true
+        }
+    );
+}

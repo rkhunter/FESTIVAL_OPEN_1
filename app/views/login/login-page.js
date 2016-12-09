@@ -1,5 +1,6 @@
 "use strict";
 var observable_1 = require("data/observable");
+var frameModule = require("ui/frame");
 var email_1 = require("../../models/email");
 var password_1 = require("../../models/password");
 function pageLoaded(args) {
@@ -13,6 +14,8 @@ function pageLoaded(args) {
         "passwordIsStrong": false
     };
     var loginButton = page.getViewById('loginButton');
+    // REMOVE: When finished Developing
+    loginButton.isEnabled = true;
     page.bindingContext.on(observable_1.Observable.propertyChangeEvent, function (propertyChangeData) {
         /// Uncomment function below for testing
         // console.log(propertyChangeData.propertyName + " has been changed and the new value is: " + propertyChangeData.value);
@@ -44,4 +47,11 @@ function pageLoaded(args) {
     });
 }
 exports.pageLoaded = pageLoaded;
+function logIn() {
+    frameModule.topmost().navigate({
+        moduleName: 'views/main/main-page',
+        clearHistory: true
+    });
+}
+exports.logIn = logIn;
 //# sourceMappingURL=login-page.js.map

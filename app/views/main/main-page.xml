@@ -1,0 +1,15 @@
+﻿<Page loaded="pageLoaded">
+  <StackLayout orientation="vertical">
+    <Image
+      id="image"
+    />
+    <ListView
+      id="list"
+      items="{{ myItems }}"
+    >
+      <ListView.itemTemplate>
+        <Label text="{{ title }}" />
+      </ListView.itemTemplate>
+    </ListView>/>
+  </StackLayout>
+</Page>

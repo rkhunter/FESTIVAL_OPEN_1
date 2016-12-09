@@ -17,7 +17,7 @@
     <Button
       id="loginButton"
       text="Log in"
-      tap="{{ logIn }}"
+      tap="logIn"
       isEnabled="false"
     />
   </StackLayout>
